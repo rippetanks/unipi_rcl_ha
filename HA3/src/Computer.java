@@ -1,23 +1,51 @@
 import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+/**
+ * Representation of a workstation.
+ */
 class Computer {
 
+    // computer index in the laboratory
+    private final int index;
+    // condition variable for thesis students
+    private final Condition tsCond;
+
+    // current user
     private User user;
-    private boolean occupied;
+    // number of thesis students in queue
+    private int tsCount;
+
+    Computer(int index, Condition tsCond) {
+        this.index = index;
+        this.tsCond = tsCond;
+    }
+
+    public int getIndex() {
+        return index;
+    }
+
+    public Condition getTsCond() {
+        return tsCond;
+    }
+
+    public int getTsCount() {
+        return tsCount;
+    }
+
+    public void addTs() {
+        tsCount++;
+    }
+
+    public void removeTs() {
+        tsCount--;
+    }
 
     public boolean isFree() {
-        return user == null && !occupied;
+        return user == null;
     }
 
-    public void occupy(User user) {
+    public void setUser(User user) {
         this.user = user;
-        this.occupied = true;
-    }
-
-    public void reserve() {
-        this.occupied = true;
     }
 
     public void free() {
