@@ -9,6 +9,8 @@ public class Student extends User {
     public void run() {
         long wait = (long) (Math.random() * MAX_WAIT); // waiting time between two requests
         long occupationTime = (long) (Math.random() * MAX_OCCUPATION); // usage time
+        //long wait = 10;
+        //long occupationTime = 20;
         int n = 0;
         try {
             while(n < k) {

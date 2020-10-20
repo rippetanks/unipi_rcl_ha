@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b60084a1-8ebd-4ff7-a655-9d7d749f1b55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/HA4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/src/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/src/HA4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/src/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/src/ThesisStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/src/Tutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HA4/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HA3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HA3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ThesisStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThesisStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
@@ -65,7 +74,9 @@
       <updated>1602533742574</updated>
       <workItem from="1602533744747" duration="575000" />
       <workItem from="1602576036933" duration="7592000" />
-      <workItem from="1602598140937" duration="2482000" />
+      <workItem from="1602598140937" duration="2754000" />
+      <workItem from="1602837907552" duration="4350000" />
+      <workItem from="1603205381530" duration="4647000" />
     </task>
     <servers />
   </component>
@@ -73,25 +84,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="420" y="660" width="1195" height="777" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602533806087">
+    <state x="420" y="660" width="1195" height="777" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603210274829">
       <screen x="0" y="0" width="3840" height="2098" />
     </state>
-    <state x="420" y="660" width="1195" height="777" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2098@0.0.3840.2098" timestamp="1602533806086" />
-    <state width="1852" height="595" key="GridCell.Tab.0.bottom" timestamp="1602584731134">
+    <state x="420" y="660" width="1195" height="777" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2098@0.0.3840.2098" timestamp="1603210274829" />
+    <state width="1852" height="593" key="GridCell.Tab.0.bottom" timestamp="1603210633341">
       <screen x="0" y="0" width="3840" height="2098" />
     </state>
-    <state width="1852" height="595" key="GridCell.Tab.0.bottom/0.0.3840.2098@0.0.3840.2098" timestamp="1602584731134" />
-    <state width="1852" height="595" key="GridCell.Tab.0.center" timestamp="1602584731133">
+    <state width="1852" height="593" key="GridCell.Tab.0.bottom/0.0.3840.2098@0.0.3840.2098" timestamp="1603210633341" />
+    <state width="1852" height="593" key="GridCell.Tab.0.center" timestamp="1603210633340">
       <screen x="0" y="0" width="3840" height="2098" />
     </state>
-    <state width="1852" height="595" key="GridCell.Tab.0.center/0.0.3840.2098@0.0.3840.2098" timestamp="1602584731133" />
-    <state width="1852" height="595" key="GridCell.Tab.0.left" timestamp="1602584731133">
+    <state width="1852" height="593" key="GridCell.Tab.0.center/0.0.3840.2098@0.0.3840.2098" timestamp="1603210633340" />
+    <state width="1852" height="593" key="GridCell.Tab.0.left" timestamp="1603210633340">
       <screen x="0" y="0" width="3840" height="2098" />
     </state>
-    <state width="1852" height="595" key="GridCell.Tab.0.left/0.0.3840.2098@0.0.3840.2098" timestamp="1602584731133" />
-    <state width="1852" height="595" key="GridCell.Tab.0.right" timestamp="1602584731134">
+    <state width="1852" height="593" key="GridCell.Tab.0.left/0.0.3840.2098@0.0.3840.2098" timestamp="1603210633340" />
+    <state width="1852" height="593" key="GridCell.Tab.0.right" timestamp="1603210633340">
       <screen x="0" y="0" width="3840" height="2098" />
     </state>
-    <state width="1852" height="595" key="GridCell.Tab.0.right/0.0.3840.2098@0.0.3840.2098" timestamp="1602584731134" />
+    <state width="1852" height="593" key="GridCell.Tab.0.right/0.0.3840.2098@0.0.3840.2098" timestamp="1603210633340" />
+    <state x="511" y="493" width="888" height="1130" key="new project wizard" timestamp="1602839626163">
+      <screen x="0" y="0" width="3840" height="2098" />
+    </state>
+    <state x="511" y="493" width="888" height="1130" key="new project wizard/0.0.3840.2098@0.0.3840.2098" timestamp="1602839626163" />
   </component>
 </project>
