@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class HA3 {
+public class HA4 {
 
     public static final int MAX_K = 5;
 
